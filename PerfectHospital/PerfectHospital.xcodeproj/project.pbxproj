@@ -1,0 +1,990 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		594A38EF1CDB17C80009D3EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A38EE1CDB17C80009D3EE /* main.m */; };
+		594A38F21CDB17C80009D3EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A38F11CDB17C80009D3EE /* AppDelegate.m */; };
+		594A38F81CDB17C80009D3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594A38F61CDB17C80009D3EE /* Main.storyboard */; };
+		594A38FA1CDB17C80009D3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 594A38F91CDB17C80009D3EE /* Assets.xcassets */; };
+		594A38FD1CDB17C80009D3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594A38FB1CDB17C80009D3EE /* LaunchScreen.storyboard */; };
+		594A39081CDB17C80009D3EE /* PerfectHospitalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39071CDB17C80009D3EE /* PerfectHospitalTests.m */; };
+		594A39131CDB17C80009D3EE /* PerfectHospitalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39121CDB17C80009D3EE /* PerfectHospitalUITests.m */; };
+		594A392C1CDB1B530009D3EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A392B1CDB1B530009D3EE /* ViewController.m */; };
+		594A392F1CDB1BD60009D3EE /* PerfectBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A392E1CDB1BD60009D3EE /* PerfectBaseViewController.m */; };
+		594A39321CDB1C070009D3EE /* PerfectNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39311CDB1C070009D3EE /* PerfectNavigationViewController.m */; };
+		594A393A1CDB20080009D3EE /* MBProgressHUD+EBUsHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39351CDB20080009D3EE /* MBProgressHUD+EBUsHUD.m */; };
+		594A393B1CDB20080009D3EE /* NSDictionary+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39371CDB20080009D3EE /* NSDictionary+ZY.m */; };
+		594A393C1CDB20080009D3EE /* UIView+ZYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39391CDB20080009D3EE /* UIView+ZYFrame.m */; };
+		594A393F1CDB22310009D3EE /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A393E1CDB22310009D3EE /* LoginViewController.m */; };
+		594A39411CDB2CAF0009D3EE /* 7B7491538F043C85FAA1F67B740869DB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 594A39401CDB2CAF0009D3EE /* 7B7491538F043C85FAA1F67B740869DB.jpg */; };
+		594A39481CDB2D150009D3EE /* PerfectOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39471CDB2D150009D3EE /* PerfectOrderListViewController.m */; };
+		594A394C1CDB35540009D3EE /* OrderListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A394A1CDB35540009D3EE /* OrderListTableViewCell.m */; };
+		594A394D1CDB35540009D3EE /* OrderListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594A394B1CDB35540009D3EE /* OrderListTableViewCell.xib */; };
+		594A39501CDB36B60009D3EE /* OrderListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A394F1CDB36B60009D3EE /* OrderListModel.m */; };
+		594A39541CDB4E380009D3EE /* PerfectOrderDatailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 594A39521CDB4E380009D3EE /* PerfectOrderDatailViewController.m */; };
+		594A39551CDB4E380009D3EE /* PerfectOrderDatailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 594A39531CDB4E380009D3EE /* PerfectOrderDatailViewController.xib */; };
+		59723F761CDC5B5A00433C12 /* MMVideoPreviewPlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F541CDC5B5A00433C12 /* MMVideoPreviewPlay@2x.png */; };
+		59723F771CDC5B5A00433C12 /* MMVideoPreviewPlayHL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F551CDC5B5A00433C12 /* MMVideoPreviewPlayHL@2x.png */; };
+		59723F781CDC5B5A00433C12 /* navi_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F561CDC5B5A00433C12 /* navi_back@2x.png */; };
+		59723F791CDC5B5A00433C12 /* photo_def_photoPickerVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F571CDC5B5A00433C12 /* photo_def_photoPickerVc@2x.png */; };
+		59723F7A1CDC5B5A00433C12 /* photo_def_previewVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F581CDC5B5A00433C12 /* photo_def_previewVc@2x.png */; };
+		59723F7B1CDC5B5A00433C12 /* photo_number_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F591CDC5B5A00433C12 /* photo_number_icon@2x.png */; };
+		59723F7C1CDC5B5A00433C12 /* photo_original_def@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F5A1CDC5B5A00433C12 /* photo_original_def@2x.png */; };
+		59723F7D1CDC5B5A00433C12 /* photo_original_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F5B1CDC5B5A00433C12 /* photo_original_sel@2x.png */; };
+		59723F7E1CDC5B5A00433C12 /* photo_sel_photoPickerVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F5C1CDC5B5A00433C12 /* photo_sel_photoPickerVc@2x.png */; };
+		59723F7F1CDC5B5A00433C12 /* photo_sel_previewVc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F5D1CDC5B5A00433C12 /* photo_sel_previewVc@2x.png */; };
+		59723F801CDC5B5A00433C12 /* preview_number_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F5E1CDC5B5A00433C12 /* preview_number_icon@2x.png */; };
+		59723F811CDC5B5A00433C12 /* preview_original_def@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F5F1CDC5B5A00433C12 /* preview_original_def@2x.png */; };
+		59723F821CDC5B5A00433C12 /* TableViewArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F601CDC5B5A00433C12 /* TableViewArrow@2x.png */; };
+		59723F831CDC5B5A00433C12 /* VideoSendIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59723F611CDC5B5A00433C12 /* VideoSendIcon@2x.png */; };
+		59723F841CDC5B5A00433C12 /* TZAlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59723F621CDC5B5A00433C12 /* TZAlbumCell.xib */; };
+		59723F851CDC5B5A00433C12 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F641CDC5B5A00433C12 /* TZAssetCell.m */; };
+		59723F861CDC5B5A00433C12 /* TZAssetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59723F651CDC5B5A00433C12 /* TZAssetCell.xib */; };
+		59723F871CDC5B5A00433C12 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F671CDC5B5A00433C12 /* TZAssetModel.m */; };
+		59723F881CDC5B5A00433C12 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F691CDC5B5A00433C12 /* TZImageManager.m */; };
+		59723F891CDC5B5A00433C12 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F6B1CDC5B5A00433C12 /* TZImagePickerController.m */; };
+		59723F8A1CDC5B5A00433C12 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F6D1CDC5B5A00433C12 /* TZPhotoPickerController.m */; };
+		59723F8B1CDC5B5A00433C12 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F6F1CDC5B5A00433C12 /* TZPhotoPreviewCell.m */; };
+		59723F8C1CDC5B5A00433C12 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F711CDC5B5A00433C12 /* TZPhotoPreviewController.m */; };
+		59723F8D1CDC5B5A00433C12 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F731CDC5B5A00433C12 /* TZVideoPlayerController.m */; };
+		59723F8E1CDC5B5A00433C12 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F751CDC5B5A00433C12 /* UIView+Layout.m */; };
+		59723F951CDC5D1100433C12 /* PerfectPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F941CDC5D1100433C12 /* PerfectPictureViewController.m */; };
+		59723F981CDC5D3400433C12 /* PerfectPictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F971CDC5D3400433C12 /* PerfectPictureCollectionViewCell.m */; };
+		59723F9B1CDC7F2100433C12 /* PerfectChoosePicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59723F9A1CDC7F2100433C12 /* PerfectChoosePicView.m */; };
+		60ABE82BEBA69DDC8EEFE5AC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0FE03E2BC4F6D234CF167C /* libPods.a */; };
+		B9CD92B11CE867850049C05C /* Alg.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CD92A51CE867850049C05C /* Alg.m */; };
+		B9CD92B21CE867850049C05C /* DDQProjectNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CD92A71CE867850049C05C /* DDQProjectNetWork.m */; };
+		B9CD92B31CE867850049C05C /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CD92A91CE867850049C05C /* NSString+MD5Addition.m */; };
+		B9CD92B41CE867850049C05C /* DDQPOSTEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CD92AC1CE867850049C05C /* DDQPOSTEncryption.m */; };
+		B9CD92B51CE867850049C05C /* SpellParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CD92AE1CE867850049C05C /* SpellParameters.m */; };
+		B9CD92B61CE867850049C05C /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CD92B01CE867850049C05C /* UICKeyChainStore.m */; };
+		B9CD92B91CE8BA4B0049C05C /* PerfrectQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CD92B81CE8BA4B0049C05C /* PerfrectQRCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		594A39041CDB17C80009D3EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594A38E21CDB17C80009D3EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594A38E91CDB17C80009D3EE;
+			remoteInfo = PerfectHospital;
+		};
+		594A390F1CDB17C80009D3EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 594A38E21CDB17C80009D3EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 594A38E91CDB17C80009D3EE;
+			remoteInfo = PerfectHospital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A0FE03E2BC4F6D234CF167C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		594A38EA1CDB17C80009D3EE /* PerfectHospital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectHospital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		594A38EE1CDB17C80009D3EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594A38F01CDB17C80009D3EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		594A38F11CDB17C80009D3EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		594A38F71CDB17C80009D3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		594A38F91CDB17C80009D3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		594A38FC1CDB17C80009D3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		594A38FE1CDB17C80009D3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594A39031CDB17C80009D3EE /* PerfectHospitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectHospitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594A39071CDB17C80009D3EE /* PerfectHospitalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectHospitalTests.m; sourceTree = "<group>"; };
+		594A39091CDB17C80009D3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594A390E1CDB17C80009D3EE /* PerfectHospitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectHospitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		594A39121CDB17C80009D3EE /* PerfectHospitalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectHospitalUITests.m; sourceTree = "<group>"; };
+		594A39141CDB17C80009D3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594A392A1CDB1B530009D3EE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		594A392B1CDB1B530009D3EE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		594A392D1CDB1BD60009D3EE /* PerfectBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectBaseViewController.h; sourceTree = "<group>"; };
+		594A392E1CDB1BD60009D3EE /* PerfectBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectBaseViewController.m; sourceTree = "<group>"; };
+		594A39301CDB1C070009D3EE /* PerfectNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectNavigationViewController.h; sourceTree = "<group>"; };
+		594A39311CDB1C070009D3EE /* PerfectNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectNavigationViewController.m; sourceTree = "<group>"; };
+		594A39331CDB1F660009D3EE /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		594A39341CDB20080009D3EE /* MBProgressHUD+EBUsHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+EBUsHUD.h"; sourceTree = "<group>"; };
+		594A39351CDB20080009D3EE /* MBProgressHUD+EBUsHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+EBUsHUD.m"; sourceTree = "<group>"; };
+		594A39361CDB20080009D3EE /* NSDictionary+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ZY.h"; sourceTree = "<group>"; };
+		594A39371CDB20080009D3EE /* NSDictionary+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ZY.m"; sourceTree = "<group>"; };
+		594A39381CDB20080009D3EE /* UIView+ZYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZYFrame.h"; sourceTree = "<group>"; };
+		594A39391CDB20080009D3EE /* UIView+ZYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZYFrame.m"; sourceTree = "<group>"; };
+		594A393D1CDB22310009D3EE /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		594A393E1CDB22310009D3EE /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		594A39401CDB2CAF0009D3EE /* 7B7491538F043C85FAA1F67B740869DB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7B7491538F043C85FAA1F67B740869DB.jpg; sourceTree = "<group>"; };
+		594A39461CDB2D150009D3EE /* PerfectOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectOrderListViewController.h; sourceTree = "<group>"; };
+		594A39471CDB2D150009D3EE /* PerfectOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectOrderListViewController.m; sourceTree = "<group>"; };
+		594A39491CDB35540009D3EE /* OrderListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderListTableViewCell.h; sourceTree = "<group>"; };
+		594A394A1CDB35540009D3EE /* OrderListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderListTableViewCell.m; sourceTree = "<group>"; };
+		594A394B1CDB35540009D3EE /* OrderListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderListTableViewCell.xib; sourceTree = "<group>"; };
+		594A394E1CDB36B60009D3EE /* OrderListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderListModel.h; sourceTree = "<group>"; };
+		594A394F1CDB36B60009D3EE /* OrderListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderListModel.m; sourceTree = "<group>"; };
+		594A39511CDB4E380009D3EE /* PerfectOrderDatailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectOrderDatailViewController.h; sourceTree = "<group>"; };
+		594A39521CDB4E380009D3EE /* PerfectOrderDatailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectOrderDatailViewController.m; sourceTree = "<group>"; };
+		594A39531CDB4E380009D3EE /* PerfectOrderDatailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PerfectOrderDatailViewController.xib; sourceTree = "<group>"; };
+		59723F541CDC5B5A00433C12 /* MMVideoPreviewPlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MMVideoPreviewPlay@2x.png"; sourceTree = "<group>"; };
+		59723F551CDC5B5A00433C12 /* MMVideoPreviewPlayHL@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MMVideoPreviewPlayHL@2x.png"; sourceTree = "<group>"; };
+		59723F561CDC5B5A00433C12 /* navi_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navi_back@2x.png"; sourceTree = "<group>"; };
+		59723F571CDC5B5A00433C12 /* photo_def_photoPickerVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_def_photoPickerVc@2x.png"; sourceTree = "<group>"; };
+		59723F581CDC5B5A00433C12 /* photo_def_previewVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_def_previewVc@2x.png"; sourceTree = "<group>"; };
+		59723F591CDC5B5A00433C12 /* photo_number_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_number_icon@2x.png"; sourceTree = "<group>"; };
+		59723F5A1CDC5B5A00433C12 /* photo_original_def@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_original_def@2x.png"; sourceTree = "<group>"; };
+		59723F5B1CDC5B5A00433C12 /* photo_original_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_original_sel@2x.png"; sourceTree = "<group>"; };
+		59723F5C1CDC5B5A00433C12 /* photo_sel_photoPickerVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_sel_photoPickerVc@2x.png"; sourceTree = "<group>"; };
+		59723F5D1CDC5B5A00433C12 /* photo_sel_previewVc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo_sel_previewVc@2x.png"; sourceTree = "<group>"; };
+		59723F5E1CDC5B5A00433C12 /* preview_number_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preview_number_icon@2x.png"; sourceTree = "<group>"; };
+		59723F5F1CDC5B5A00433C12 /* preview_original_def@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preview_original_def@2x.png"; sourceTree = "<group>"; };
+		59723F601CDC5B5A00433C12 /* TableViewArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewArrow@2x.png"; sourceTree = "<group>"; };
+		59723F611CDC5B5A00433C12 /* VideoSendIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoSendIcon@2x.png"; sourceTree = "<group>"; };
+		59723F621CDC5B5A00433C12 /* TZAlbumCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZAlbumCell.xib; sourceTree = "<group>"; };
+		59723F631CDC5B5A00433C12 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		59723F641CDC5B5A00433C12 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		59723F651CDC5B5A00433C12 /* TZAssetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZAssetCell.xib; sourceTree = "<group>"; };
+		59723F661CDC5B5A00433C12 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		59723F671CDC5B5A00433C12 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		59723F681CDC5B5A00433C12 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		59723F691CDC5B5A00433C12 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		59723F6A1CDC5B5A00433C12 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		59723F6B1CDC5B5A00433C12 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		59723F6C1CDC5B5A00433C12 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		59723F6D1CDC5B5A00433C12 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		59723F6E1CDC5B5A00433C12 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		59723F6F1CDC5B5A00433C12 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		59723F701CDC5B5A00433C12 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		59723F711CDC5B5A00433C12 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		59723F721CDC5B5A00433C12 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		59723F731CDC5B5A00433C12 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		59723F741CDC5B5A00433C12 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		59723F751CDC5B5A00433C12 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		59723F931CDC5D1100433C12 /* PerfectPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectPictureViewController.h; sourceTree = "<group>"; };
+		59723F941CDC5D1100433C12 /* PerfectPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectPictureViewController.m; sourceTree = "<group>"; };
+		59723F961CDC5D3400433C12 /* PerfectPictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectPictureCollectionViewCell.h; sourceTree = "<group>"; };
+		59723F971CDC5D3400433C12 /* PerfectPictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectPictureCollectionViewCell.m; sourceTree = "<group>"; };
+		59723F991CDC7F2100433C12 /* PerfectChoosePicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfectChoosePicView.h; sourceTree = "<group>"; };
+		59723F9A1CDC7F2100433C12 /* PerfectChoosePicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfectChoosePicView.m; sourceTree = "<group>"; };
+		B9CD92A41CE867850049C05C /* Alg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alg.h; sourceTree = "<group>"; };
+		B9CD92A51CE867850049C05C /* Alg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alg.m; sourceTree = "<group>"; };
+		B9CD92A61CE867850049C05C /* DDQProjectNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDQProjectNetWork.h; sourceTree = "<group>"; };
+		B9CD92A71CE867850049C05C /* DDQProjectNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDQProjectNetWork.m; sourceTree = "<group>"; };
+		B9CD92A81CE867850049C05C /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		B9CD92A91CE867850049C05C /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		B9CD92AB1CE867850049C05C /* DDQPOSTEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDQPOSTEncryption.h; sourceTree = "<group>"; };
+		B9CD92AC1CE867850049C05C /* DDQPOSTEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDQPOSTEncryption.m; sourceTree = "<group>"; };
+		B9CD92AD1CE867850049C05C /* SpellParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpellParameters.h; sourceTree = "<group>"; };
+		B9CD92AE1CE867850049C05C /* SpellParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpellParameters.m; sourceTree = "<group>"; };
+		B9CD92AF1CE867850049C05C /* UICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICKeyChainStore.h; sourceTree = "<group>"; };
+		B9CD92B01CE867850049C05C /* UICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICKeyChainStore.m; sourceTree = "<group>"; };
+		B9CD92B71CE8BA4B0049C05C /* PerfrectQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerfrectQRCodeViewController.h; sourceTree = "<group>"; };
+		B9CD92B81CE8BA4B0049C05C /* PerfrectQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerfrectQRCodeViewController.m; sourceTree = "<group>"; };
+		C6F6AAEFBB68E464277EE057 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC0111EBD833317470213D96 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		594A38E71CDB17C80009D3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60ABE82BEBA69DDC8EEFE5AC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594A39001CDB17C80009D3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594A390B1CDB17C80009D3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		594A38E11CDB17C80009D3EE = {
+			isa = PBXGroup;
+			children = (
+				594A38EC1CDB17C80009D3EE /* PerfectHospital */,
+				594A39061CDB17C80009D3EE /* PerfectHospitalTests */,
+				594A39111CDB17C80009D3EE /* PerfectHospitalUITests */,
+				594A38EB1CDB17C80009D3EE /* Products */,
+				FBDA774720F7FE750795A496 /* Pods */,
+				9B6A72F33E1D961447A38689 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		594A38EB1CDB17C80009D3EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594A38EA1CDB17C80009D3EE /* PerfectHospital.app */,
+				594A39031CDB17C80009D3EE /* PerfectHospitalTests.xctest */,
+				594A390E1CDB17C80009D3EE /* PerfectHospitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		594A38EC1CDB17C80009D3EE /* PerfectHospital */ = {
+			isa = PBXGroup;
+			children = (
+				594A38F01CDB17C80009D3EE /* AppDelegate.h */,
+				594A38F11CDB17C80009D3EE /* AppDelegate.m */,
+				594A39241CDB1AED0009D3EE /* Tools */,
+				594A39231CDB1AED0009D3EE /* PublicClass */,
+				594A39211CDB1AED0009D3EE /* Category */,
+				594A39201CDB1AED0009D3EE /* BaseViewController */,
+				594A39291CDB1B530009D3EE /* LoginViewController */,
+				594A39421CDB2CF20009D3EE /* OrderViewController */,
+				59723F8F1CDC5CE800433C12 /* PictureViewController */,
+				594A38F61CDB17C80009D3EE /* Main.storyboard */,
+				594A38F91CDB17C80009D3EE /* Assets.xcassets */,
+				594A38FB1CDB17C80009D3EE /* LaunchScreen.storyboard */,
+				594A38FE1CDB17C80009D3EE /* Info.plist */,
+				594A38ED1CDB17C80009D3EE /* Supporting Files */,
+			);
+			path = PerfectHospital;
+			sourceTree = "<group>";
+		};
+		594A38ED1CDB17C80009D3EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				594A38EE1CDB17C80009D3EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		594A39061CDB17C80009D3EE /* PerfectHospitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				594A39071CDB17C80009D3EE /* PerfectHospitalTests.m */,
+				594A39091CDB17C80009D3EE /* Info.plist */,
+			);
+			path = PerfectHospitalTests;
+			sourceTree = "<group>";
+		};
+		594A39111CDB17C80009D3EE /* PerfectHospitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				594A39121CDB17C80009D3EE /* PerfectHospitalUITests.m */,
+				594A39141CDB17C80009D3EE /* Info.plist */,
+			);
+			path = PerfectHospitalUITests;
+			sourceTree = "<group>";
+		};
+		594A39201CDB1AED0009D3EE /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				594A392D1CDB1BD60009D3EE /* PerfectBaseViewController.h */,
+				594A392E1CDB1BD60009D3EE /* PerfectBaseViewController.m */,
+				594A39301CDB1C070009D3EE /* PerfectNavigationViewController.h */,
+				594A39311CDB1C070009D3EE /* PerfectNavigationViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		594A39211CDB1AED0009D3EE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				594A39341CDB20080009D3EE /* MBProgressHUD+EBUsHUD.h */,
+				594A39351CDB20080009D3EE /* MBProgressHUD+EBUsHUD.m */,
+				594A39361CDB20080009D3EE /* NSDictionary+ZY.h */,
+				594A39371CDB20080009D3EE /* NSDictionary+ZY.m */,
+				594A39381CDB20080009D3EE /* UIView+ZYFrame.h */,
+				594A39391CDB20080009D3EE /* UIView+ZYFrame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		594A39231CDB1AED0009D3EE /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				594A39401CDB2CAF0009D3EE /* 7B7491538F043C85FAA1F67B740869DB.jpg */,
+			);
+			path = PublicClass;
+			sourceTree = "<group>";
+		};
+		594A39241CDB1AED0009D3EE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				59723F521CDC5B5A00433C12 /* TZImagePickerController */,
+				594A39331CDB1F660009D3EE /* Header.h */,
+				B9CD92A31CE867850049C05C /* ProjectNet */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		594A39291CDB1B530009D3EE /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				594A392A1CDB1B530009D3EE /* ViewController.h */,
+				594A392B1CDB1B530009D3EE /* ViewController.m */,
+				594A393D1CDB22310009D3EE /* LoginViewController.h */,
+				594A393E1CDB22310009D3EE /* LoginViewController.m */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		594A39421CDB2CF20009D3EE /* OrderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				594A39431CDB2CF20009D3EE /* C */,
+				594A39441CDB2CF20009D3EE /* M */,
+				594A39451CDB2CF20009D3EE /* V */,
+			);
+			path = OrderViewController;
+			sourceTree = "<group>";
+		};
+		594A39431CDB2CF20009D3EE /* C */ = {
+			isa = PBXGroup;
+			children = (
+				594A39461CDB2D150009D3EE /* PerfectOrderListViewController.h */,
+				594A39471CDB2D150009D3EE /* PerfectOrderListViewController.m */,
+				B9CD92B71CE8BA4B0049C05C /* PerfrectQRCodeViewController.h */,
+				B9CD92B81CE8BA4B0049C05C /* PerfrectQRCodeViewController.m */,
+				594A39511CDB4E380009D3EE /* PerfectOrderDatailViewController.h */,
+				594A39521CDB4E380009D3EE /* PerfectOrderDatailViewController.m */,
+				594A39531CDB4E380009D3EE /* PerfectOrderDatailViewController.xib */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		594A39441CDB2CF20009D3EE /* M */ = {
+			isa = PBXGroup;
+			children = (
+				594A394E1CDB36B60009D3EE /* OrderListModel.h */,
+				594A394F1CDB36B60009D3EE /* OrderListModel.m */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		594A39451CDB2CF20009D3EE /* V */ = {
+			isa = PBXGroup;
+			children = (
+				594A39491CDB35540009D3EE /* OrderListTableViewCell.h */,
+				594A394A1CDB35540009D3EE /* OrderListTableViewCell.m */,
+				594A394B1CDB35540009D3EE /* OrderListTableViewCell.xib */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		59723F521CDC5B5A00433C12 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				59723F531CDC5B5A00433C12 /* Resourse */,
+				59723F621CDC5B5A00433C12 /* TZAlbumCell.xib */,
+				59723F631CDC5B5A00433C12 /* TZAssetCell.h */,
+				59723F641CDC5B5A00433C12 /* TZAssetCell.m */,
+				59723F651CDC5B5A00433C12 /* TZAssetCell.xib */,
+				59723F661CDC5B5A00433C12 /* TZAssetModel.h */,
+				59723F671CDC5B5A00433C12 /* TZAssetModel.m */,
+				59723F681CDC5B5A00433C12 /* TZImageManager.h */,
+				59723F691CDC5B5A00433C12 /* TZImageManager.m */,
+				59723F6A1CDC5B5A00433C12 /* TZImagePickerController.h */,
+				59723F6B1CDC5B5A00433C12 /* TZImagePickerController.m */,
+				59723F6C1CDC5B5A00433C12 /* TZPhotoPickerController.h */,
+				59723F6D1CDC5B5A00433C12 /* TZPhotoPickerController.m */,
+				59723F6E1CDC5B5A00433C12 /* TZPhotoPreviewCell.h */,
+				59723F6F1CDC5B5A00433C12 /* TZPhotoPreviewCell.m */,
+				59723F701CDC5B5A00433C12 /* TZPhotoPreviewController.h */,
+				59723F711CDC5B5A00433C12 /* TZPhotoPreviewController.m */,
+				59723F721CDC5B5A00433C12 /* TZVideoPlayerController.h */,
+				59723F731CDC5B5A00433C12 /* TZVideoPlayerController.m */,
+				59723F741CDC5B5A00433C12 /* UIView+Layout.h */,
+				59723F751CDC5B5A00433C12 /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		59723F531CDC5B5A00433C12 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				59723F541CDC5B5A00433C12 /* MMVideoPreviewPlay@2x.png */,
+				59723F551CDC5B5A00433C12 /* MMVideoPreviewPlayHL@2x.png */,
+				59723F561CDC5B5A00433C12 /* navi_back@2x.png */,
+				59723F571CDC5B5A00433C12 /* photo_def_photoPickerVc@2x.png */,
+				59723F581CDC5B5A00433C12 /* photo_def_previewVc@2x.png */,
+				59723F591CDC5B5A00433C12 /* photo_number_icon@2x.png */,
+				59723F5A1CDC5B5A00433C12 /* photo_original_def@2x.png */,
+				59723F5B1CDC5B5A00433C12 /* photo_original_sel@2x.png */,
+				59723F5C1CDC5B5A00433C12 /* photo_sel_photoPickerVc@2x.png */,
+				59723F5D1CDC5B5A00433C12 /* photo_sel_previewVc@2x.png */,
+				59723F5E1CDC5B5A00433C12 /* preview_number_icon@2x.png */,
+				59723F5F1CDC5B5A00433C12 /* preview_original_def@2x.png */,
+				59723F601CDC5B5A00433C12 /* TableViewArrow@2x.png */,
+				59723F611CDC5B5A00433C12 /* VideoSendIcon@2x.png */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		59723F8F1CDC5CE800433C12 /* PictureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				59723F901CDC5CE800433C12 /* C */,
+				59723F921CDC5CE800433C12 /* V */,
+			);
+			path = PictureViewController;
+			sourceTree = "<group>";
+		};
+		59723F901CDC5CE800433C12 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				59723F931CDC5D1100433C12 /* PerfectPictureViewController.h */,
+				59723F941CDC5D1100433C12 /* PerfectPictureViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		59723F921CDC5CE800433C12 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				59723F961CDC5D3400433C12 /* PerfectPictureCollectionViewCell.h */,
+				59723F971CDC5D3400433C12 /* PerfectPictureCollectionViewCell.m */,
+				59723F991CDC7F2100433C12 /* PerfectChoosePicView.h */,
+				59723F9A1CDC7F2100433C12 /* PerfectChoosePicView.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		9B6A72F33E1D961447A38689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0FE03E2BC4F6D234CF167C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9CD92A31CE867850049C05C /* ProjectNet */ = {
+			isa = PBXGroup;
+			children = (
+				B9CD92A41CE867850049C05C /* Alg.h */,
+				B9CD92A51CE867850049C05C /* Alg.m */,
+				B9CD92A61CE867850049C05C /* DDQProjectNetWork.h */,
+				B9CD92A71CE867850049C05C /* DDQProjectNetWork.m */,
+				B9CD92A81CE867850049C05C /* NSString+MD5Addition.h */,
+				B9CD92A91CE867850049C05C /* NSString+MD5Addition.m */,
+				B9CD92AA1CE867850049C05C /* Secret */,
+				B9CD92AD1CE867850049C05C /* SpellParameters.h */,
+				B9CD92AE1CE867850049C05C /* SpellParameters.m */,
+				B9CD92AF1CE867850049C05C /* UICKeyChainStore.h */,
+				B9CD92B01CE867850049C05C /* UICKeyChainStore.m */,
+			);
+			path = ProjectNet;
+			sourceTree = "<group>";
+		};
+		B9CD92AA1CE867850049C05C /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				B9CD92AB1CE867850049C05C /* DDQPOSTEncryption.h */,
+				B9CD92AC1CE867850049C05C /* DDQPOSTEncryption.m */,
+			);
+			path = Secret;
+			sourceTree = "<group>";
+		};
+		FBDA774720F7FE750795A496 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F6AAEFBB68E464277EE057 /* Pods.debug.xcconfig */,
+				EC0111EBD833317470213D96 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		594A38E91CDB17C80009D3EE /* PerfectHospital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594A39171CDB17C80009D3EE /* Build configuration list for PBXNativeTarget "PerfectHospital" */;
+			buildPhases = (
+				415E6C708FA02CE1883726A8 /* Check Pods Manifest.lock */,
+				594A38E61CDB17C80009D3EE /* Sources */,
+				594A38E71CDB17C80009D3EE /* Frameworks */,
+				594A38E81CDB17C80009D3EE /* Resources */,
+				61C365D1F07FE8F5E9D11C47 /* Embed Pods Frameworks */,
+				D3C9CB480BB7C558932D6EEB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectHospital;
+			productName = PerfectHospital;
+			productReference = 594A38EA1CDB17C80009D3EE /* PerfectHospital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		594A39021CDB17C80009D3EE /* PerfectHospitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594A391A1CDB17C80009D3EE /* Build configuration list for PBXNativeTarget "PerfectHospitalTests" */;
+			buildPhases = (
+				594A38FF1CDB17C80009D3EE /* Sources */,
+				594A39001CDB17C80009D3EE /* Frameworks */,
+				594A39011CDB17C80009D3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594A39051CDB17C80009D3EE /* PBXTargetDependency */,
+			);
+			name = PerfectHospitalTests;
+			productName = PerfectHospitalTests;
+			productReference = 594A39031CDB17C80009D3EE /* PerfectHospitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		594A390D1CDB17C80009D3EE /* PerfectHospitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 594A391D1CDB17C80009D3EE /* Build configuration list for PBXNativeTarget "PerfectHospitalUITests" */;
+			buildPhases = (
+				594A390A1CDB17C80009D3EE /* Sources */,
+				594A390B1CDB17C80009D3EE /* Frameworks */,
+				594A390C1CDB17C80009D3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				594A39101CDB17C80009D3EE /* PBXTargetDependency */,
+			);
+			name = PerfectHospitalUITests;
+			productName = PerfectHospitalUITests;
+			productReference = 594A390E1CDB17C80009D3EE /* PerfectHospitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		594A38E21CDB17C80009D3EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tracy;
+				TargetAttributes = {
+					594A38E91CDB17C80009D3EE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = RQ435RL23T;
+					};
+					594A39021CDB17C80009D3EE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 594A38E91CDB17C80009D3EE;
+					};
+					594A390D1CDB17C80009D3EE = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 594A38E91CDB17C80009D3EE;
+					};
+				};
+			};
+			buildConfigurationList = 594A38E51CDB17C80009D3EE /* Build configuration list for PBXProject "PerfectHospital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 594A38E11CDB17C80009D3EE;
+			productRefGroup = 594A38EB1CDB17C80009D3EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				594A38E91CDB17C80009D3EE /* PerfectHospital */,
+				594A39021CDB17C80009D3EE /* PerfectHospitalTests */,
+				594A390D1CDB17C80009D3EE /* PerfectHospitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		594A38E81CDB17C80009D3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59723F801CDC5B5A00433C12 /* preview_number_icon@2x.png in Resources */,
+				594A39411CDB2CAF0009D3EE /* 7B7491538F043C85FAA1F67B740869DB.jpg in Resources */,
+				594A38FD1CDB17C80009D3EE /* LaunchScreen.storyboard in Resources */,
+				59723F761CDC5B5A00433C12 /* MMVideoPreviewPlay@2x.png in Resources */,
+				59723F781CDC5B5A00433C12 /* navi_back@2x.png in Resources */,
+				594A38FA1CDB17C80009D3EE /* Assets.xcassets in Resources */,
+				59723F861CDC5B5A00433C12 /* TZAssetCell.xib in Resources */,
+				59723F7E1CDC5B5A00433C12 /* photo_sel_photoPickerVc@2x.png in Resources */,
+				594A38F81CDB17C80009D3EE /* Main.storyboard in Resources */,
+				59723F771CDC5B5A00433C12 /* MMVideoPreviewPlayHL@2x.png in Resources */,
+				59723F7B1CDC5B5A00433C12 /* photo_number_icon@2x.png in Resources */,
+				59723F791CDC5B5A00433C12 /* photo_def_photoPickerVc@2x.png in Resources */,
+				594A39551CDB4E380009D3EE /* PerfectOrderDatailViewController.xib in Resources */,
+				59723F7A1CDC5B5A00433C12 /* photo_def_previewVc@2x.png in Resources */,
+				59723F841CDC5B5A00433C12 /* TZAlbumCell.xib in Resources */,
+				59723F821CDC5B5A00433C12 /* TableViewArrow@2x.png in Resources */,
+				594A394D1CDB35540009D3EE /* OrderListTableViewCell.xib in Resources */,
+				59723F831CDC5B5A00433C12 /* VideoSendIcon@2x.png in Resources */,
+				59723F7C1CDC5B5A00433C12 /* photo_original_def@2x.png in Resources */,
+				59723F7F1CDC5B5A00433C12 /* photo_sel_previewVc@2x.png in Resources */,
+				59723F811CDC5B5A00433C12 /* preview_original_def@2x.png in Resources */,
+				59723F7D1CDC5B5A00433C12 /* photo_original_sel@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594A39011CDB17C80009D3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594A390C1CDB17C80009D3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		415E6C708FA02CE1883726A8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61C365D1F07FE8F5E9D11C47 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3C9CB480BB7C558932D6EEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		594A38E61CDB17C80009D3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59723F8B1CDC5B5A00433C12 /* TZPhotoPreviewCell.m in Sources */,
+				594A392C1CDB1B530009D3EE /* ViewController.m in Sources */,
+				594A392F1CDB1BD60009D3EE /* PerfectBaseViewController.m in Sources */,
+				59723F8C1CDC5B5A00433C12 /* TZPhotoPreviewController.m in Sources */,
+				594A38F21CDB17C80009D3EE /* AppDelegate.m in Sources */,
+				59723F981CDC5D3400433C12 /* PerfectPictureCollectionViewCell.m in Sources */,
+				59723F9B1CDC7F2100433C12 /* PerfectChoosePicView.m in Sources */,
+				B9CD92B61CE867850049C05C /* UICKeyChainStore.m in Sources */,
+				594A393B1CDB20080009D3EE /* NSDictionary+ZY.m in Sources */,
+				594A39541CDB4E380009D3EE /* PerfectOrderDatailViewController.m in Sources */,
+				B9CD92B11CE867850049C05C /* Alg.m in Sources */,
+				594A39481CDB2D150009D3EE /* PerfectOrderListViewController.m in Sources */,
+				59723F8E1CDC5B5A00433C12 /* UIView+Layout.m in Sources */,
+				B9CD92B51CE867850049C05C /* SpellParameters.m in Sources */,
+				59723F8D1CDC5B5A00433C12 /* TZVideoPlayerController.m in Sources */,
+				594A39321CDB1C070009D3EE /* PerfectNavigationViewController.m in Sources */,
+				59723F881CDC5B5A00433C12 /* TZImageManager.m in Sources */,
+				B9CD92B91CE8BA4B0049C05C /* PerfrectQRCodeViewController.m in Sources */,
+				594A394C1CDB35540009D3EE /* OrderListTableViewCell.m in Sources */,
+				59723F851CDC5B5A00433C12 /* TZAssetCell.m in Sources */,
+				594A393F1CDB22310009D3EE /* LoginViewController.m in Sources */,
+				B9CD92B41CE867850049C05C /* DDQPOSTEncryption.m in Sources */,
+				594A39501CDB36B60009D3EE /* OrderListModel.m in Sources */,
+				B9CD92B31CE867850049C05C /* NSString+MD5Addition.m in Sources */,
+				59723F8A1CDC5B5A00433C12 /* TZPhotoPickerController.m in Sources */,
+				594A393C1CDB20080009D3EE /* UIView+ZYFrame.m in Sources */,
+				59723F951CDC5D1100433C12 /* PerfectPictureViewController.m in Sources */,
+				59723F871CDC5B5A00433C12 /* TZAssetModel.m in Sources */,
+				B9CD92B21CE867850049C05C /* DDQProjectNetWork.m in Sources */,
+				594A393A1CDB20080009D3EE /* MBProgressHUD+EBUsHUD.m in Sources */,
+				59723F891CDC5B5A00433C12 /* TZImagePickerController.m in Sources */,
+				594A38EF1CDB17C80009D3EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594A38FF1CDB17C80009D3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594A39081CDB17C80009D3EE /* PerfectHospitalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		594A390A1CDB17C80009D3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				594A39131CDB17C80009D3EE /* PerfectHospitalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		594A39051CDB17C80009D3EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594A38E91CDB17C80009D3EE /* PerfectHospital */;
+			targetProxy = 594A39041CDB17C80009D3EE /* PBXContainerItemProxy */;
+		};
+		594A39101CDB17C80009D3EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 594A38E91CDB17C80009D3EE /* PerfectHospital */;
+			targetProxy = 594A390F1CDB17C80009D3EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		594A38F61CDB17C80009D3EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594A38F71CDB17C80009D3EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		594A38FB1CDB17C80009D3EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				594A38FC1CDB17C80009D3EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		594A39151CDB17C80009D3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		594A39161CDB17C80009D3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		594A39181CDB17C80009D3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F6AAEFBB68E464277EE057 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PerfectHospital/Tools/Header.h";
+				INFOPLIST_FILE = PerfectHospital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minfo.PerfectHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		594A39191CDB17C80009D3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0111EBD833317470213D96 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PerfectHospital/Tools/Header.h";
+				INFOPLIST_FILE = PerfectHospital/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minfo.PerfectHospital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		594A391B1CDB17C80009D3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfectHospitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minfo.PerfectHospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectHospital.app/PerfectHospital";
+			};
+			name = Debug;
+		};
+		594A391C1CDB17C80009D3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfectHospitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minfo.PerfectHospitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfectHospital.app/PerfectHospital";
+			};
+			name = Release;
+		};
+		594A391E1CDB17C80009D3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PerfectHospitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minfo.PerfectHospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PerfectHospital;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		594A391F1CDB17C80009D3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PerfectHospitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.minfo.PerfectHospitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PerfectHospital;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		594A38E51CDB17C80009D3EE /* Build configuration list for PBXProject "PerfectHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594A39151CDB17C80009D3EE /* Debug */,
+				594A39161CDB17C80009D3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594A39171CDB17C80009D3EE /* Build configuration list for PBXNativeTarget "PerfectHospital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594A39181CDB17C80009D3EE /* Debug */,
+				594A39191CDB17C80009D3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594A391A1CDB17C80009D3EE /* Build configuration list for PBXNativeTarget "PerfectHospitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594A391B1CDB17C80009D3EE /* Debug */,
+				594A391C1CDB17C80009D3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		594A391D1CDB17C80009D3EE /* Build configuration list for PBXNativeTarget "PerfectHospitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				594A391E1CDB17C80009D3EE /* Debug */,
+				594A391F1CDB17C80009D3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 594A38E21CDB17C80009D3EE /* Project object */;
+}

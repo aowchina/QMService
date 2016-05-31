@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PerfectHospital/OrderViewController/C/PerfectOrderListViewController.m"
+            timestampString = "485075439.713951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-getTextFieldContent"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[PerfectOrderListViewController getTextFieldContent]"
+                  moduleName = "PerfectHospital"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/min-fo018/Desktop/%E5%85%A8%E7%BE%8E%E6%9C%8D%E5%8A%A1%E7%89%88/PerfectHospital/PerfectHospital/OrderViewController/C/PerfectOrderListViewController.m"
+                  timestampString = "486021508.599126"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[PerfectOrderListViewController getTextFieldContent]_block_invoke"
+                  moduleName = "PerfectHospital"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/min-fo018/Desktop/%E5%85%A8%E7%BE%8E%E6%9C%8D%E5%8A%A1%E7%89%88/PerfectHospital/PerfectHospital/OrderViewController/C/PerfectOrderListViewController.m"
+                  timestampString = "486021508.599383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

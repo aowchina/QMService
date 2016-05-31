@@ -1,0 +1,7 @@
+pod 'SDWebImage', '~> 3.7.3'
+pod 'Reachability', '~> 3.2'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'MJRefresh', '~> 3.0.1'
+pod 'Masonry'
+pod 'IQKeyboardManager'
+pod 'MJExtension'
